@@ -1,0 +1,43 @@
+{
+    "name": "@helix/crypto",
+    "version": "1.0.0",
+    "license": "MPL-2.0",
+    "description": "Hashes, MACs, key derivation, ciphers, and signatures in pure Helix for any target",
+    "exports": {
+        ".": "src/index.hx"
+    },
+    "bin": {
+        /**
+         * Only for testing
+         */
+
+        "crypto": "src/main.hx"
+    },
+    "aliases": {
+        "@crc": "src/modules/crc",
+        "@hex": "src/modules/hex",
+        "@hmac": "src/modules/hmac",
+        "@compare": "src/modules/compare",
+        "@sha256": "src/modules/sha256",
+        "@sha512": "src/modules/sha512",
+        "@sha1": "src/modules/sha1",
+        "@md5": "src/modules/md5",
+        "@blake2": "src/modules/blake2",
+        "@sha3": "src/modules/sha3",
+        "@hkdf": "src/modules/hkdf",
+        "@pbkdf2": "src/modules/pbkdf2",
+        "@scrypt": "src/modules/scrypt",
+        "@adler32": "src/modules/adler32",
+        "@fnv": "src/modules/fnv",
+        "@xxhash": "src/modules/xxhash",
+        "@base64": "src/modules/base64",
+        "@chacha20": "src/modules/chacha20",
+        "@poly1305": "src/modules/poly1305",
+        "@aead": "src/modules/aead",
+        "@aes": "src/modules/aes",
+        "@gcm": "src/modules/gcm",
+        "@curve25519": "src/modules/curve25519",
+        "@x25519": "src/modules/x25519",
+        "@ed25519": "src/modules/ed25519"
+    }
+}
