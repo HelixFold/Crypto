@@ -12,8 +12,5 @@ cache/
 .vscode/
 .idea/
 
-# Local Helix toolchain
-helix-*-*/
-
 # Test output
 .helix-out/
